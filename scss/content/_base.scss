@@ -1,0 +1,8 @@
+@use '../variables/var';
+@use '../variables/colors';
+
+body {
+  font-family: var.$base-font;
+  color: colors.$base-text-color;
+  background-color: #E4E4E4;
+}
