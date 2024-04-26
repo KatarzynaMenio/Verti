@@ -1,0 +1,8 @@
+@use "../variables/var";
+@use 'sass:map';
+
+@mixin sm() {
+  @media screen and (min-width: map.get(var.$grid-breakpoints, sm)) {
+    @content;
+  }
+}
