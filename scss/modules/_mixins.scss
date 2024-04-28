@@ -12,3 +12,9 @@
     @content;
   }
 }
+
+@mixin lg() {
+  @media screen and (min-width: map.get(var.$grid-breakpoints, lg)) {
+    @content;
+  }
+}
